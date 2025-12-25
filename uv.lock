@@ -817,6 +817,7 @@ dependencies = [
     { name = "dash", extra = ["testing"] },
     { name = "numpy" },
     { name = "pandas" },
+    { name = "pytest" },
 ]
 
 [package.metadata]
@@ -824,6 +825,7 @@ requires-dist = [
     { name = "dash", extras = ["testing"], specifier = ">=3.3.0" },
     { name = "numpy", specifier = ">=2.4.0" },
     { name = "pandas", specifier = ">=2.3.3" },
+    { name = "pytest", specifier = ">=9.0.2" },
 ]
 
 [[package]]
