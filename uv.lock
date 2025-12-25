@@ -815,12 +815,14 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "dash", extra = ["testing"] },
+    { name = "numpy" },
     { name = "pandas" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "dash", extras = ["testing"], specifier = ">=3.3.0" },
+    { name = "numpy", specifier = ">=2.4.0" },
     { name = "pandas", specifier = ">=2.3.3" },
 ]
 
